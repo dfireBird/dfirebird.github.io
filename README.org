@@ -1,0 +1,25 @@
+#+TITLE: dfirebird.github.io
+#+STARTUP: overview
+
+Personal site built using gatsby
+
+* Installation
+Clone or fork the repo and install dependencies
+#+BEGIN_SRC bash
+  git clone <repo url>
+  cd dfirebird.github.io
+  npm install
+#+END_SRC
+
+* Developing and Serving
+Serve the site locally to =localhost:8000= using
+#+BEGIN_SRC bash
+  npm run develop
+#+END_SRC
+
+or 
+
+#+BEGIN_SRC bash
+  npm start
+#+END_SRC
+
