@@ -1,0 +1,44 @@
+.index-container {
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.article-container {
+  margin-right: 15px;
+}
+
+.links, .contact {
+  display: flex;
+}
+
+.links a:not(:last-child),
+.contact a:not(:last-child),
+.links strong,
+.contact strong {
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .index-container {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .index-container {
+    max-width: 350px;
+  }
+  .links, .contact {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .index-container {
+    max-width: 250px;
+  }
+}
