@@ -1,5 +1,5 @@
 .index-container {
-  height: 100vh;
+  height: 90vh;
   margin: 0 auto;
   max-width: 700px;
   display: flex;
@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 428px) {
   .index-container {
     max-width: 350px;
   }
