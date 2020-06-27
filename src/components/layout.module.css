@@ -1,5 +1,5 @@
 .container {
-  max-width: 850px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -14,10 +14,6 @@
 
 .nav__right a {
   margin: 0 10px;
-}
-
-.footer {
-  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
