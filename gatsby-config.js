@@ -1,11 +1,9 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: "A Programmer's Journey",
+    description: "Portfolio and Blog of Aadhish Sriram.",
+    author: "dfireBird",
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -26,5 +24,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-react-helmet`,
   ],
 }
