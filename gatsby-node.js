@@ -4,7 +4,7 @@ const { createFilePath } = require("gatsby-source-filesystem")
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === "Mdx") {
-    const path = createFilePath({ node, getNode, trailingSlash: false })
+    const path = createFilePath({ node, getNode })
     let slug = path
     if (path.includes("post")) {
       slug = `blog${path}`
