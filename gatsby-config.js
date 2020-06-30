@@ -24,6 +24,15 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "A Programmer's Journey",
+        start_url: "/",
+        display: "standalone",
+        icon: "static/favicon.png",
+      },
+    },
     `gatsby-plugin-react-helmet`,
   ],
 }
