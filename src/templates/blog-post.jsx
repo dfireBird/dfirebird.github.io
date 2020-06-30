@@ -6,7 +6,10 @@ import Layout from "../components/layout.jsx"
 export default ({ data }) => {
   const post = data.mdx
   return (
-    <Layout>
+    <Layout
+      tabTitle={post.frontmatter.title}
+      pageTitle={post.frontmatter.title}
+    >
       <h1>{post.frontmatter.title}</h1>
       <MDXRenderer>{post.body}</MDXRenderer>
     </Layout>

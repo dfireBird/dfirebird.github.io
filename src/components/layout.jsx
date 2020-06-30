@@ -1,10 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 import Styles from "./layout.module.css"
+import SEO from "./seo"
 
-function Layout(props) {
+function Layout({ tabTitle, pageTitle, description, children }) {
   return (
     <div className={Styles.container}>
+      <SEO title={tabTitle} description={description} />
       <div className={Styles.nav}>
         <div className={Styles.nav__left}>
           <Link to="/">
@@ -21,7 +23,10 @@ function Layout(props) {
           </nav>
         </div>
       </div>
-      {props.children}
+      <div className={Styles.title}>
+        <h1>{pageTitle}</h1>
+      </div>
+      {children}
       <div className={Styles.footer}>
         <footer>
           Aadhish Sriram &copy; 2020. This website is built with{" "}
