@@ -5,7 +5,10 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === "Mdx") {
     const path = createFilePath({ node, getNode, trailingSlash: false })
-    const slug = `blog/posts${path}`
+    let slug = path
+    if (path.includes("post")) {
+      slug = `blog${path}`
+    }
     createNodeField({
       node,
       name: `slug`,
@@ -31,9 +34,15 @@ exports.createPages = async ({ graphql, actions }) => {
   `)
 
   result.data.allMdx.edges.forEach(({ node }) => {
+    let component
+    if (node.fields.slug.includes("about")) {
+      component = path.resolve("./src/templates/about.jsx")
+    } else if (node.fields.slug.includes("post")) {
+      component = path.resolve("./src/templates/blog-post.jsx")
+    }
     createPage({
       path: node.fields.slug,
-      component: path.resolve("./src/templates/blog-post.jsx"),
+      component: component,
       context: {
         slug: node.fields.slug,
       },
