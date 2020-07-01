@@ -1,9 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 import indexStyle from "./index.module.css"
+import SEO from "../components/seo"
 
 export default () => (
   <div className={indexStyle.indexContainer}>
+    <SEO title="Home" />
     <div className={indexStyle.articleContainer}>
       <h1>Hi! I am Aadhish Sriram!</h1>
 
