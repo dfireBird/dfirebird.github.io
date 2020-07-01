@@ -25,11 +25,12 @@ function SEO({ description, title }) {
 
   return (
     <Helmet title={meta.title}>
+      <html lang="en" />
       <meta name="description" content={meta.description} />
       <meta name="og:type" content="website" />
       {meta.title && <meta name="og:title" content={meta.title} />}
       {meta.description && (
-        <meta nam="og:description" content={meta.description} />
+        <meta name="og:description" content={meta.description} />
       )}
     </Helmet>
   )
