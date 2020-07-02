@@ -4,15 +4,32 @@ const { createFilePath } = require("gatsby-source-filesystem")
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === "Mdx") {
-    const path = createFilePath({ node, getNode })
-    let slug = path
-    if (path.includes("post")) {
-      slug = `blog${path}`
+    const path = createFilePath({ node, getNode }).split("/")
+    const fileName = path[path.length - 2]
+    const postType = path[path.length - 3]
+    let filePath
+
+    switch (postType) {
+      case "post":
+        filePath = `/blog/post/${fileName}/`
+        break
+      case "about":
+        filePath = `/about/`
+        break
+      default:
+        throw new Error("Invalid post type")
     }
+
+    createNodeField({
+      node,
+      name: `type`,
+      value: postType,
+    })
+
     createNodeField({
       node,
       name: `slug`,
-      value: slug,
+      value: filePath,
     })
   }
 }
