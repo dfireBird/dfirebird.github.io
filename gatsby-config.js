@@ -28,6 +28,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "A Programmer's Journey",
+        short_name: "A Programmer's Journey",
         start_url: "/",
         display: "standalone",
         icon: "static/favicon.png",
