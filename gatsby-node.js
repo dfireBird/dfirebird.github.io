@@ -7,11 +7,16 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     const path = createFilePath({ node, getNode }).split("/")
     const fileName = path[path.length - 2]
     const postType = path[path.length - 3]
+    console.log(path)
+    console.log(`${fileName}, ${postType}`)
     let filePath
 
     switch (postType) {
       case "post":
         filePath = `/blog/post/${fileName}/`
+        break
+      case "projects":
+        filePath = `/projects/`
         break
       case "about":
         filePath = `/about/`
@@ -56,6 +61,8 @@ exports.createPages = async ({ graphql, actions }) => {
       component = path.resolve("./src/templates/about.jsx")
     } else if (node.fields.slug.includes("post")) {
       component = path.resolve("./src/templates/blog-post.jsx")
+    } else if (node.fields.slug.includes("project")) {
+      component = path.resolve("./src/templates/projects.jsx")
     }
     createPage({
       path: node.fields.slug,
