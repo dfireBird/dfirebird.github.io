@@ -8,6 +8,10 @@ theme.overrideThemeStyles = () => ({
   a: {
     color: "#8E3B3C",
   },
+  hr: {
+    height: "2px",
+    background: "hsla(0, 0%, 0%, 0.5)",
+  },
 })
 
 const typography = new Typography(theme)
