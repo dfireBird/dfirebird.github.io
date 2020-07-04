@@ -7,8 +7,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     const path = createFilePath({ node, getNode }).split("/")
     const fileName = path[path.length - 2]
     const postType = path[path.length - 3]
-    console.log(path)
-    console.log(`${fileName}, ${postType}`)
     let filePath
 
     switch (postType) {
