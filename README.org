@@ -2,7 +2,7 @@
 #+STARTUP: overview
 
 #+NAME: github pages
-[[[[https://github.com/dfireBird/dfireBird.github.io/workflows/github%20pages/badge.svg?branch=deploy]]]]
+[[https://github.com/dfireBird/dfireBird.github.io/workflows/github%20pages/badge.svg?branch=deploy]]
 
 Personal site built using gatsby
 
