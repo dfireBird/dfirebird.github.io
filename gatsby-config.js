@@ -1,3 +1,5 @@
+const fetch = require(`node-fetch`)
+
 module.exports = {
   siteMetadata: {
     title: "A Programmer's Journey",
@@ -10,6 +12,28 @@ module.exports = {
       options: {
         name: `posts`,
         path: `${__dirname}/src/content/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-graphql`,
+      options: {
+        typeName: "Anilist",
+        fieldName: "anilist",
+        url: "https://graphql.anilist.co",
+        fetch: (uri, options = {}) => {
+          const { query, variables } = JSON.parse(options.body)
+          return fetch(uri, {
+            ...options,
+            headers: {
+              ...options.headers,
+              accept: "application/json",
+            },
+            body: JSON.stringify({
+              query: query,
+              variables: variables,
+            }),
+          })
+        },
       },
     },
     {
