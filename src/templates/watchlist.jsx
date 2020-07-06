@@ -6,7 +6,7 @@ export default ({ data }) => {
   let titles = data.anilist.AnimePage.mediaList
 
   return (
-    <Layout>
+    <Layout tabTitle="Watchlist" pageTitle="Watch List">
       <p>I currently watch or read these manga and anime: </p>
       {titles.map(({ media }) => (
         <div key={media.id}>
