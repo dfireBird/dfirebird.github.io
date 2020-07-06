@@ -1,8 +1,8 @@
 #+TITLE: dfirebird.github.io
 #+STARTUP: overview
 
-#+NAME: github pages
-[[https://github.com/dfireBird/dfireBird.github.io/workflows/github%20pages/badge.svg?branch=deploy]]
+#+NAME: Build
+[[https://github.com/dfireBird/dfirebird.github.io/workflows/Build/badge.svg]]
 
 Personal site built using gatsby
 
