@@ -70,4 +70,13 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   })
+
+  createPage({
+    path: "/watchlist",
+    component: path.resolve("./src/templates/watchlist.jsx"),
+    context: {
+      page: 1,
+      userId: 466289,
+    },
+  })
 }
