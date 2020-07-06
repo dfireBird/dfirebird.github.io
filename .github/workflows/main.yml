@@ -31,7 +31,9 @@ jobs:
       - name: Format project
         run: npm run format
 
-      - name: Site Build
+      - name: Clean build cache
         run: npm run clean
+
+      - name: Site Build
         run: npm run build
 
