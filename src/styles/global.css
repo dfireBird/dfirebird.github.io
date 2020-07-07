@@ -6,6 +6,22 @@ html {
   overflow-y: auto;
 }
 
+body {
+  --bg: #ffffff;
+  --text: rgba(0, 0, 0, 0.8);
+  --hrcolor: hsla(0, 0%, 0%, 0.5);
+  --a: #8E3B3C;
+
+  background-color: var(--bg);
+}
+
+body.dark {
+  --bg: #202020;
+  --text: rgba(255, 255, 255, 0.8);
+  --hrcolor: hsla(0, 0%, 100%, 0.5);
+  --a: #DC9E86;
+}
+
 a {
   text-decoration: none;
 }

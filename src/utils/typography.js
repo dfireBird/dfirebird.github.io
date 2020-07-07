@@ -2,15 +2,23 @@ import Typography from "typography"
 import theme from "typography-theme-st-annes"
 
 theme.baseFontSize = "18px"
-theme.headerColor = "hsl(0, 0%, 0%, 0.8)"
 
 theme.overrideThemeStyles = () => ({
   a: {
-    color: "#8E3B3C",
+    color: "var(--a)",
+  },
+  "a:hover": {
+    color: "var(--text)",
   },
   hr: {
     height: "2px",
-    background: "hsla(0, 0%, 0%, 0.5)",
+    background: "var(--hrcolor)",
+  },
+  "h1, h2, h3, h4, h5, h6, svg": {
+    color: "var(--text)",
+  },
+  "p, label, strong, em, ul, li, span, footer": {
+    color: "var(--text)",
   },
 })
 
