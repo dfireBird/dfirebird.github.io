@@ -2,10 +2,14 @@ import React from "react"
 import { Link } from "gatsby"
 import indexStyle from "./index.module.css"
 import SEO from "../components/seo"
+import ThemeToggle from "../components/ThemeToggle"
 
 export default () => (
   <div className={indexStyle.indexContainer}>
     <SEO title="Home" />
+    <ThemeToggle
+      styles={{ position: "absolute", right: 0, top: 0, margin: "15px" }}
+    />
     <div className={indexStyle.articleContainer}>
       <h1>Hi! I am Aadhish Sriram!</h1>
 

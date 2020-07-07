@@ -2,11 +2,15 @@ import React from "react"
 import { Link } from "gatsby"
 import Styles from "./layout.module.css"
 import SEO from "./seo"
+import ThemeToggle from "./ThemeToggle"
 
 function Layout({ tabTitle, pageTitle, description, children }) {
   return (
     <div className={Styles.container}>
       <SEO title={tabTitle} description={description} />
+      <ThemeToggle
+        styles={{ position: "absolute", right: 0, top: 0, margin: "15px" }}
+      />
       <div className={Styles.nav}>
         <div className={Styles.nav__left}>
           <Link to="/">
