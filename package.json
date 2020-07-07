@@ -17,6 +17,7 @@
     "@mdx-js/mdx": "^1.6.6",
     "@mdx-js/react": "^1.6.6",
     "gatsby": "^2.23.3",
+    "gatsby-plugin-dark-mode": "^1.1.2",
     "gatsby-plugin-manifest": "^2.4.14",
     "gatsby-plugin-mdx": "^1.2.18",
     "gatsby-plugin-offline": "^3.2.15",
