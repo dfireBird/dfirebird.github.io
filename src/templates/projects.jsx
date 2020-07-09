@@ -14,6 +14,7 @@ export default ({ data }) => {
             title={node.name}
             description={node.description}
             sourceLink={node.sourceLink}
+            link={node.link}
           />
         ))}
       </div>
@@ -29,6 +30,7 @@ export const query = graphql`
           name
           description
           sourceLink
+          link
         }
       }
     }
