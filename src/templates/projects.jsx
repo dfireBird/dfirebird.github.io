@@ -1,24 +1,36 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { MDXRenderer } from "gatsby-plugin-mdx"
 import Styles from "./projects.module.css"
 import Layout from "../components/layout"
+import ProjectCard from "../components/ProjectCard"
 
 export default ({ data }) => {
-  const post = data.mdx
+  const projects = data.allProjectsJson
   return (
     <Layout tabTitle="Projects" pageTitle="My Projects">
       <div className={Styles.content}>
-        <MDXRenderer>{post.body}</MDXRenderer>
+        {projects.edges.map(({ node }) => (
+          <ProjectCard
+            title={node.name}
+            description={node.description}
+            sourceLink={node.sourceLink}
+          />
+        ))}
       </div>
     </Layout>
   )
 }
 
 export const query = graphql`
-  query($slug: String!) {
-    mdx(fields: { slug: { eq: $slug } }) {
-      body
+  query {
+    allProjectsJson {
+      edges {
+        node {
+          name
+          description
+          sourceLink
+        }
+      }
     }
   }
 `
