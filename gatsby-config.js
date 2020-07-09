@@ -14,6 +14,7 @@ module.exports = {
         path: `${__dirname}/src/content/`,
       },
     },
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-graphql`,
       options: {
