@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Personal Website",
+    "description": "Webstie that serves both as a blog and portfolio. Created using react and gatsby",
+    "sourceLink": "https://github.com/dfirebird/dfirebird.github.io",
+    "link": "https://dfirebird.codes"
+  },
+  {
+    "name": "birdtorrent_rs",
+    "description": "Bittorent implementation (bittorent client) made using Rust.",
+    "sourceLink": "https://github.com/dfirebird/birdtorrent_rs"
+  },
+  {
+    "name": "scrapddit",
+    "description": "A CLI which retrieves reddit posts from a subreddit or popular feed using Reddit API. Created using JavaScript.",
+    "sourceLink": "https://github.com/dfireBird/scrapddit"
+  },
+  {
+    "name": "Programmer News Bot",
+    "description": "A Telegram bot which retrieves top posts from Hacker News and sends it to user at specified intervals, made in Javascript.",
+    "sourceLink": "https://github.com/dfireBird/programmer-news-bot"
+  },
+  {
+    "name": "Hacker News Wrapper",
+    "description": "A wrapper around Hacker News API to use in the Programmer News Bot project, made using Javascript.",
+    "sourceLink": "https://github.com/dfireBird/hacker-news-wrapper"
+  }
+]
