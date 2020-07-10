@@ -20,23 +20,23 @@ const Links = props => {
     return (
       <>
         <a href={props.sourceLink} className={Style.link}>
-          SOURCE
+          Source
         </a>
         <a href={props.link} className={Style.link}>
-          LINK
+          Link
         </a>
       </>
     )
   } else if (props.sourceLink) {
     return (
       <a href={props.sourceLink} className={Style.link}>
-        SOURCE
+        Source
       </a>
     )
   } else if (props.link) {
     return (
       <a href={props.link} className={Style.link}>
-        LINK
+        Link
       </a>
     )
   }
