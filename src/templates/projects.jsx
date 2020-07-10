@@ -12,6 +12,7 @@ export default ({ data }) => {
         <div className={Styles.content}>
           {projects.edges.map(({ node }) => (
             <ProjectCard
+              key={node.id}
               title={node.name}
               description={node.description}
               sourceLink={node.sourceLink}
@@ -29,6 +30,7 @@ export const query = graphql`
     allProjectsJson {
       edges {
         node {
+          id
           name
           description
           sourceLink
