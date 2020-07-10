@@ -8,15 +8,17 @@ export default ({ data }) => {
   const projects = data.allProjectsJson
   return (
     <Layout tabTitle="Projects" pageTitle="My Projects">
-      <div className={Styles.content}>
-        {projects.edges.map(({ node }) => (
-          <ProjectCard
-            title={node.name}
-            description={node.description}
-            sourceLink={node.sourceLink}
-            link={node.link}
-          />
-        ))}
+      <div className={Styles.container}>
+        <div className={Styles.content}>
+          {projects.edges.map(({ node }) => (
+            <ProjectCard
+              title={node.name}
+              description={node.description}
+              sourceLink={node.sourceLink}
+              link={node.link}
+            />
+          ))}
+        </div>
       </div>
     </Layout>
   )
