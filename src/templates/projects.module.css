@@ -4,3 +4,9 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px 25px;
 }
+
+@media screen and (max-width: 428px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+}
