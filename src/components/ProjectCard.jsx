@@ -1,9 +1,10 @@
 import React from "react"
+import Card from "./Card"
 import Style from "./ProjectCard.module.css"
 
 function ProjectCard(props) {
   return (
-    <div className={Style.card}>
+    <Card>
       <div className={Style.content}>
         <h3>{props.title}</h3>
         <p>{props.description}</p>
@@ -11,7 +12,7 @@ function ProjectCard(props) {
       <div>
         <Links sourceLink={props.sourceLink} link={props.link} />
       </div>
-    </div>
+    </Card>
   )
 }
 
