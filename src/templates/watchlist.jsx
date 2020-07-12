@@ -2,21 +2,24 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import WatchCard from "../components/WatchCard"
+import Style from "./watchlist.module.css"
 
 export default ({ data }) => {
   let titles = data.anilist.AnimePage.mediaList
 
   return (
     <Layout tabTitle="Watchlist" pageTitle="Watch List">
-      <div>
-        {titles.map(({ media }) => (
-          <WatchCard
-            key={media.id}
-            title={media.title.romaji}
-            coverImage={media.coverImage.large}
-            genres={media.genres}
-          />
-        ))}
+      <div className={Style.container}>
+        <div className={Style.content}>
+          {titles.map(({ media }) => (
+            <WatchCard
+              key={media.id}
+              title={media.title.english}
+              coverImage={media.coverImage.large}
+              genres={media.genres}
+            />
+          ))}
+        </div>
       </div>
     </Layout>
   )
