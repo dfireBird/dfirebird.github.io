@@ -42,7 +42,7 @@ export const query = graphql`
               large
             }
             title {
-              romaji
+              english
             }
           }
         }
