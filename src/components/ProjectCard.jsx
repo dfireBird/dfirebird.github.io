@@ -9,7 +9,7 @@ function ProjectCard(props) {
         <h3>{props.title}</h3>
         <p>{props.description}</p>
       </div>
-      <div>
+      <div className={Style.links}>
         <Links sourceLink={props.sourceLink} link={props.link} />
       </div>
     </Card>
