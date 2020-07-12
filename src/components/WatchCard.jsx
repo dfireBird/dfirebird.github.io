@@ -5,8 +5,12 @@ import Style from "./WatchCard.module.css"
 function WatchCard(props) {
   return (
     <Card>
-      <div>
-        <img src={props.coverImage} alt={`${props.title} cover`} />
+      <div className={Style.image}>
+        <img
+          src={props.coverImage}
+          alt={`${props.title} cover`}
+          height={"300px"}
+        />
       </div>
       <div className={Style.content}>
         <h3>{props.title}</h3>
