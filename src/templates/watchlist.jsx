@@ -1,25 +1,23 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import WatchCard from "../components/WatchCard"
 
 export default ({ data }) => {
   let titles = data.anilist.AnimePage.mediaList
 
   return (
     <Layout tabTitle="Watchlist" pageTitle="Watch List">
-      <p>I currently watch or read these manga and anime: </p>
-      {titles.map(({ media }) => (
-        <div key={media.id}>
-          <h3>{media.title.romaji}</h3>
-          <img
-            src={media.coverImage.large}
-            alt={`${media.title.romaji} cover`}
+      <div>
+        {titles.map(({ media }) => (
+          <WatchCard
+            key={media.id}
+            title={media.title.romaji}
+            coverImage={media.coverImage.large}
+            genres={media.genres}
           />
-          <p>
-            The genre of this {media.type.toLowerCase()} is {media.genres[0]}
-          </p>
-        </div>
-      ))}
+        ))}
+      </div>
     </Layout>
   )
 }
