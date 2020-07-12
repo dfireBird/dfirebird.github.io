@@ -1,0 +1,20 @@
+.content {}
+
+.content h3 {
+  margin-top: 0;
+}
+
+.content p {
+  margin: 0 10px;
+  padding: 6px 10px;
+}
+
+.genres {
+  display: flex;
+  flex-direction: row;
+}
+
+.genre {
+  color: rgba(0, 0, 0, 0.8);
+  background:  #B3F9C7;
+}
