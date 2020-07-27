@@ -35,8 +35,8 @@ function Layout({ tabTitle, pageTitle, description, children }) {
         <footer>
           Aadhish Sriram &copy; 2020. This website is built with{" "}
           <a href="https://www.gatsbyjs.org/">Gatsby</a>. The source can be
-          found{" "}
-          <a href="https://github.com/dfireBird/dfireBird.github.io">here</a>
+          found on{" "}
+          <a href="https://github.com/dfireBird/dfireBird.github.io">Github</a>
         </footer>
       </div>
     </div>
