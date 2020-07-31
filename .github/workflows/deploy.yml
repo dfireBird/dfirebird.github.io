@@ -28,7 +28,7 @@ jobs:
 
 
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
 
       - run: npm run format
       - run: npm run clean
