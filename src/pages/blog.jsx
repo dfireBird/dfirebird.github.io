@@ -27,7 +27,10 @@ export const query = graphql`
   query retrieveBlogs {
     allMdx(
       sort: { fields: frontmatter___date, order: DESC }
-      filter: { fields: { type: { eq: "post" } } }
+      filter: {
+        fields: { type: { eq: "post" } }
+        frontmatter: { published: { eq: true } }
+      }
     ) {
       edges {
         node {
