@@ -6,9 +6,9 @@
     "link": "https://dfirebird.codes"
   },
   {
-    "name": "birdtorrent_rs",
-    "description": "Bittorent implementation (bittorent client) made using Rust.",
-    "sourceLink": "https://github.com/dfirebird/birdtorrent_rs"
+    "name": "Emourge",
+    "description": "A Discord bot to count emojis in messages send in a server and output the lowest frequency of emojis",
+    "sourceLink": "https://github.com/dfireBird/emourge"
   },
   {
     "name": "scrapddit",
@@ -24,5 +24,10 @@
     "name": "Hacker News Wrapper",
     "description": "A wrapper around Hacker News API to use in the Programmer News Bot project, made using Javascript.",
     "sourceLink": "https://github.com/dfireBird/hacker-news-wrapper"
+  },
+  {
+    "name": "birdtorrent_rs",
+    "description": "(WIP) Bittorent implementation (bittorent client) made using Rust.",
+    "sourceLink": "https://github.com/dfirebird/birdtorrent_rs"
   }
 ]
