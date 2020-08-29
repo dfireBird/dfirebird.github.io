@@ -19,8 +19,8 @@ export default () => (
         state - India. I'm currently studying my Engineering course with major
         of Computer Science in SASTRA University. I am constantly learning
         something new and share my experiences. I'm currently working on few
-        projects to improve my knowledge such as implementing BitTorrent
-        protocol in Rust or learning Gatsby and use it in this site.
+        projects to improve my knowledge such as implementing Chess game in Rust
+        using ggez or learning Racket and OpenGL.
       </p>
 
       <p>

@@ -13,12 +13,12 @@ Journey".
 
 ## Programming
 
-My key programming languages are Javascript and Rust
+My key programming languages are Javascript and Rust and C++.
 
-I recently started learning Rust and working on implementation of Bittorent
-Protocol in Rust.
+I recently started learning Racket and OpenGL and working on implementing Chess
+in Rust using ggez and improving the discord bot Emourge.
 
-I also have some experience in Typescript, Python, C++, C and Java.
+I also have some experience in Typescript, Racket, Python, C and Java.
 
 ## Technologies
 
@@ -47,11 +47,12 @@ I also had my share with databases such as MySQL and MonogoDB.
 
 Some of my notable projects are:
 
-1. **birdtorrent_rs** - Bittorent protocol implementation in Rust.
-2. **Personal Website** - Website built using Gatsby used as portfolio and blog.
-3. **Programmer News Bot** - Telegram bot which retrieve and send posts from 
+1. **Personal Website** - Website built using Gatsby used as portfolio and blog.
+2. **Emourge** - Discord bot which records emojis sent by the user in a server
+and give statistics about them.
+2. **Programmer News Bot** - Telegram bot which retrieve and send posts from
 Hacker News.
-4. **scarpddit** - A CLI which retrieves post from reddit when invoked
+3. **scarpddit** - A CLI which retrieves post from reddit when invoked
 
 
 
