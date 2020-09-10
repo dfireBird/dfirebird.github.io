@@ -14,7 +14,7 @@ export default ({ data }) => {
           {titles.map(({ media }) => (
             <WatchCard
               key={media.id}
-              title={media.title.english || media.synonyms[0]}
+              title={media.title.english}
               coverImage={media.coverImage.large}
               genres={media.genres}
             />
@@ -44,7 +44,6 @@ export const query = graphql`
             title {
               english
             }
-            synonyms
           }
         }
       }
