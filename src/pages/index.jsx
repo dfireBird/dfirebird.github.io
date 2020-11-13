@@ -20,7 +20,7 @@ export default () => (
         of Computer Science in SASTRA University. I am constantly learning
         something new and share my experiences. I'm currently working on few
         projects to improve my knowledge such as implementing Chess game in Rust
-        using ggez or learning Racket and OpenGL.
+        using ggez or learning Haskell.
       </p>
 
       <p>
