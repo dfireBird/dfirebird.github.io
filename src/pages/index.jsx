@@ -25,7 +25,8 @@ export default () => (
 
       <p>
         When I'm not programming, I pass my time by reading manga or watching
-        shows. I'm planning to put some time to read about theoretical Physics.
+        shows. I'm planning to read about Lamba Caculus and Functional
+        Programming more.
       </p>
 
       <div className={indexStyle.links}>
