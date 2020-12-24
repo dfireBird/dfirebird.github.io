@@ -15,10 +15,10 @@ Journey".
 
 My key programming languages are Javascript and Rust and C++.
 
-I recently started learning Racket and OpenGL and working on implementing Chess
+I recently started learning Haskell and working on implementing Chess
 in Rust using ggez and improving the discord bot Emourge.
 
-I also have some experience in Typescript, Racket, Python, C and Java.
+I also have some experience in Typescript, Racket, Elixir, Python, C and Java.
 
 ## Technologies
 
