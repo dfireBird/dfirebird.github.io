@@ -13,12 +13,14 @@ Journey".
 
 ## Programming
 
-My key programming languages are Javascript and Rust and C++.
+Typescript, Rust are my go-to choice of programming languages and at-times I
+like to use C++.
 
 I recently started learning Haskell and working on implementing Chess
 in Rust using ggez and improving the discord bot Emourge.
 
-I also have some experience in Typescript, Racket, Elixir, Python, C and Java.
+I also have some experience in Javascript, Racket, Elixir, Python, C and Java
+as well as HTML and CSS.
 
 ## Technologies
 
@@ -41,7 +43,7 @@ I have experience in following technologies:
 
 * AWS
 
-I also had my share with databases such as MySQL and MonogoDB.
+I also had my share with databases such as Postgres and MonogoDB.
 
 ## Projects
 
