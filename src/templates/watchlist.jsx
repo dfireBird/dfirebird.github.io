@@ -28,7 +28,7 @@ export default ({ data }) => {
 export const query = graphql`
   query watchlist($page: Int, $userId: Int) {
     anilist {
-      AnimePage: Page(page: $page, perPage: 10) {
+      AnimePage: Page(page: $page, perPage: 50) {
         pageInfo {
           currentPage
           lastPage
