@@ -21,7 +21,7 @@ function WatchCard(props) {
           <p>Genres:</p>
           {props.genres.slice(0, 2).map((genre, i) => (
             <p className={Style.genre} key={i}>
-              {genre.length > 10 ? `${genre.slice(0, 6)} ...` : genre}
+              {genre.length > 10 ? `${genre.slice(0, 5)}⠀...` : genre}
             </p>
           ))}
         </div>
