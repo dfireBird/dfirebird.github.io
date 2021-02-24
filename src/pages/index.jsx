@@ -15,9 +15,9 @@ export default () => (
 
       <p>
         I go by an alias of <em>dfireBird</em> online. I am a software developer
-        (specialized in web developement) from the South Asian state penisular
-        state - India. I'm currently studying my Engineering course with major
-        of Computer Science in SASTRA University. I am constantly learning
+        (specialized in web developement) from the South Asian penisular State -
+        India. I'm currently studying my Engineering course with major of
+        Computer Science in SASTRA University. I am constantly learning
         something new and share my experiences. I'm currently working on few
         projects to improve my knowledge such as implementing Chess game in Rust
         using ggez or learning Haskell.
