@@ -18,7 +18,6 @@ export default ({ data }) => {
               key={media.id}
               title={media.title.english}
               coverImage={media.coverImage.large}
-              genres={media.genres}
             />
           ))}
         </div>
@@ -29,7 +28,6 @@ export default ({ data }) => {
               key={media.id}
               title={media.title.english}
               coverImage={media.coverImage.large}
-              genres={media.genres}
             />
           ))}
         </div>
@@ -50,7 +48,6 @@ export const query = graphql`
           media {
             id
             type
-            genres
             coverImage {
               large
             }
@@ -69,7 +66,6 @@ export const query = graphql`
           media {
             id
             type
-            genres
             coverImage {
               large
             }
