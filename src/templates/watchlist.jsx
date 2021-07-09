@@ -11,26 +11,38 @@ export default ({ data }) => {
   return (
     <Layout tabTitle="Watchlist" pageTitle="Watch List">
       <div className={Style.container}>
-        <h4>I currently watch these anime:</h4>
-        <div className={Style.content}>
-          {animeList.map(({ media }) => (
-            <WatchCard
-              key={media.id}
-              title={media.title.english}
-              coverImage={media.coverImage.large}
-            />
-          ))}
-        </div>
-        <h4>I currently read these mangas:</h4>
-        <div className={Style.content}>
-          {mangaList.map(({ media }) => (
-            <WatchCard
-              key={media.id}
-              title={media.title.english}
-              coverImage={media.coverImage.large}
-            />
-          ))}
-        </div>
+        {animeList.length !== 0 ? (
+          <React.Fragment>
+            <h4>I currently watch these anime:</h4>
+            <div className={Style.content}>
+              {animeList.map(({ media }) => (
+                <WatchCard
+                  key={media.id}
+                  title={media.title.english}
+                  coverImage={media.coverImage.large}
+                />
+              ))}
+            </div>
+          </React.Fragment>
+        ) : (
+          <h4>Oops! It seems like, I'm not watch anything</h4>
+        )}
+        {mangaList.length !== 0 ? (
+          <React.Fragment>
+            <h4>I currently read these mangas:</h4>
+            <div className={Style.content}>
+              {mangaList.map(({ media }) => (
+                <WatchCard
+                  key={media.id}
+                  title={media.title.english}
+                  coverImage={media.coverImage.large}
+                />
+              ))}
+            </div>
+          </React.Fragment>
+        ) : (
+          <h4>Oops! It seems like, I'm not reading anything</h4>
+        )}
       </div>
     </Layout>
   )
