@@ -13,13 +13,13 @@ Journey".
 
 ## Programming
 
-Typescript, Rust are my go-to choice of programming languages and at-times I
-like to use C++.
+Rust is my go-to choice of programming language now and at-times I
+like to use Haskell, Elixir and Typescript.
 
-I recently started learning Haskell and working on implementing Chess
-in Rust using ggez and improving the discord bot Emourge.
+I'm working on to finish Tincan, a peer-to-peer chat application in Rust
+and to make it more sensible to use and at-times I work on jkbbwr's Forge.
 
-I also have some experience in Javascript, Racket, Elixir, Python, C and Java
+I also have some experience in Javascript, Racket, C++, Python, C and Java
 as well as HTML and CSS.
 
 ## Technologies

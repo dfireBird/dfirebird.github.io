@@ -18,9 +18,10 @@ export default () => (
         (specialized in web developement) from the South Asian penisular State -
         India. I'm currently studying my Engineering course with major of
         Computer Science in SASTRA University. I am constantly learning
-        something new and share my experiences. I'm currently working on few
-        projects to improve my knowledge such as implementing Chess game in Rust
-        using ggez or learning Haskell.
+        something new and share my experiences. I'm currently working on{" "}
+        <a href="https://github.com/dfirebird/tincan">Tincan</a>, a peer-to-peer
+        chat application in Rust and sometimes in{" "}
+        <a href="https://github.com/jkbbwr/forge">Forge</a>.
       </p>
 
       <p>
