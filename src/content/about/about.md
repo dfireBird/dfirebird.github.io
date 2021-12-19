@@ -1,7 +1,7 @@
 Hi! My name is Aadhish Sriram, but you can also call me by nickname, dfireBird.
-I'm an Software developer from India. I'm currently pursuing my Bachelor
+I'm a Software developer from India. I'm currently pursuing my Bachelor
 Engineering degree on Computer Science in SASTRA Deemed University.
-I'm love to working on projects and learn more things.
+I love working on projects and learn more things.
 
 I'm an aspiriing open-source enthusiast and my projects are often open-sourced.
 I watch anime or english TV shows and read manga when I'm not programming or studying.
