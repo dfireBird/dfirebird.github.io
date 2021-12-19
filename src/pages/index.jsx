@@ -19,15 +19,14 @@ export default () => (
         India. I'm currently studying my Engineering course with major of
         Computer Science in SASTRA University. I am constantly learning
         something new and share my experiences. I'm currently working on{" "}
-        <a href="https://github.com/dfirebird/tincan">Tincan</a>, a peer-to-peer
-        chat application in Rust and sometimes in{" "}
-        <a href="https://github.com/jkbbwr/forge">Forge</a>.
+        <a href="https://github.com/dfirebird/papercups">Papercups</a>, a
+        peer-to-peer chat application in Rust.
       </p>
 
       <p>
         When I'm not programming, I pass my time by reading manga or watching
-        shows. I'm planning to read about Lamba Caculus and Functional
-        Programming more.
+        shows. I'm interested in reading about Lamba Caculus, Functional
+        Programming and Compiler Theory.
       </p>
 
       <div className={indexStyle.links}>

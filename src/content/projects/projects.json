@@ -11,6 +11,11 @@
     "sourceLink": "https://github.com/dfireBird/emourge"
   },
   {
+    "name": "Papercups",
+    "description": "A P2P chat and file transfer program",
+    "sourceLink": "https://github.com/dfireBird/papercups"
+  },
+  {
     "name": "scrapddit",
     "description": "A CLI which retrieves reddit posts from a subreddit or popular feed using Reddit API. Created using JavaScript.",
     "sourceLink": "https://github.com/dfireBird/scrapddit"
@@ -27,7 +32,7 @@
   },
   {
     "name": "birdtorrent_rs",
-    "description": "(WIP) Bittorent implementation (bittorent client) made using Rust.",
+    "description": "(Discontinued) Bittorent implementation (bittorent client) made using Rust.",
     "sourceLink": "https://github.com/dfirebird/birdtorrent_rs"
   }
 ]
