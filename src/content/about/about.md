@@ -1,5 +1,5 @@
 Hi! My name is Aadhish Sriram, but you can also call me by nickname, dfireBird.
-I'm a Software developer from India. I'm currently interning in [IBM](https://www.ibm.com/consulting) 
+I'm a Software developer from India. I'm currently interning in [IBM](https://www.ibm.com/consulting) and
 pursuing my Bachelor Engineering degree on Computer Science in SASTRA Deemed University.
 I love working on projects and learn more things.
 
