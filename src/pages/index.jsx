@@ -16,9 +16,11 @@ export default () => (
       <p>
         I go by an alias of <em>dfireBird</em> online. I am a software developer
         (specialized in web developement) from the South Asian penisular State -
-        India. I'm currently studying my Engineering course with major of
-        Computer Science in SASTRA University. I am constantly learning
-        something new and share my experiences. I'm currently working on{" "}
+        India. I'm currently interning in{" "}
+        <a href="https://www.ibm.com/consulting">IBM</a> while studying
+        Engineering with major of Computer Science in SASTRA University. I am
+        constantly learning something new and share my experiences. I'm
+        currently working on{" "}
         <a href="https://github.com/dfirebird/papercups">Papercups</a>, a
         peer-to-peer chat application in Rust.
       </p>
