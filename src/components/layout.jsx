@@ -33,7 +33,7 @@ function Layout({ tabTitle, pageTitle, description, children }) {
       {children}
       <div className={Styles.footer}>
         <footer>
-          Aadhish Sriram &copy; 2021. This website is built with{" "}
+          Aadhish Sriram &copy; 2022. This website is built with{" "}
           <a href="https://www.gatsbyjs.org/">Gatsby</a>. The source can be
           found on{" "}
           <a href="https://github.com/dfireBird/dfireBird.github.io">Github</a>
