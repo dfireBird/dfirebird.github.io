@@ -37,7 +37,6 @@ export default () => (
           <Link to="/projects">Projects</Link>
           <Link to="/blog">Blog</Link>
           <Link to="/about">About me</Link>
-          <Link to="/watchlist">Watch List</Link>
         </div>
       </div>
 

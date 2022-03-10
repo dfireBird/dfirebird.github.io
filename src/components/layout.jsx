@@ -23,7 +23,6 @@ function Layout({ tabTitle, pageTitle, description, children }) {
             <Link to="/about">About</Link>
             <Link to="/blog">Blog</Link>
             <Link to="/projects">Projects</Link>
-            <Link to="/watchlist">Watch List</Link>
           </nav>
         </div>
       </div>
