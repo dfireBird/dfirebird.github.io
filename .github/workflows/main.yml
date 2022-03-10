@@ -29,14 +29,14 @@ jobs:
 
 
       - name: Install Dependencies
-        run: npm ci
+        run: yarn install --frozen-lockfile
 
       - name: Format project
-        run: npm run format
+        run: yarn run format
 
       - name: Clean build cache
-        run: npm run clean
+        run: yarn run clean
 
       - name: Site Build
-        run: npm run build
+        run: yarn run build
 
