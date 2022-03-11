@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import indexStyle from "./index.module.css"
+import * as indexStyle from "./index.module.css"
 import SEO from "../components/seo"
 import ThemeToggle from "../components/ThemeToggle"
 

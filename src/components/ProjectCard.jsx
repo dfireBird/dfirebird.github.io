@@ -1,6 +1,6 @@
 import React from "react"
 import Card from "./Card"
-import Style from "./ProjectCard.module.css"
+import * as Style from "./ProjectCard.module.css"
 
 function ProjectCard(props) {
   return (

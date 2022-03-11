@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import { BsSun, BsMoon } from "react-icons/bs"
-import Styles from "./ThemeToggle.module.css"
+import * as Styles from "./ThemeToggle.module.css"
 
 function ThemeToggle({ styles }) {
   const [darkMode, toggleDarkMode] = useState(true)

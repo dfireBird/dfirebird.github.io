@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-import Styles from "./blog-post.module.css"
+import * as Styles from "./blog-post.module.css"
 import Layout from "../components/layout.jsx"
 
 export default ({ data }) => {
@@ -18,7 +18,7 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     mdx(fields: { slug: { eq: $slug } }) {
       body
       frontmatter {

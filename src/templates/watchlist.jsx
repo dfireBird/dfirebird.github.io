@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import WatchCard from "../components/WatchCard"
-import Style from "./watchlist.module.css"
+import * as Style from "./watchlist.module.css"
 
 export default ({ data }) => {
   let animeList = data.anilist.anime.mediaList

@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import Styles from "./404.module.css"
+import * as Styles from "./404.module.css"
 import _404 from "../images/404.svg"
 
 export default () => (

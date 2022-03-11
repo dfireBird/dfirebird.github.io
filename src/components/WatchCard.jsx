@@ -1,6 +1,6 @@
 import React from "react"
 import Card from "./Card"
-import Style from "./WatchCard.module.css"
+import * as Style from "./WatchCard.module.css"
 
 function WatchCard(props) {
   if (!props.title) {
