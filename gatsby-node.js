@@ -11,7 +11,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
     switch (postType) {
       case "post":
-        filePath = `/blog/post/${fileName}/`
+        filePath = `/posts/${fileName.replaceAll("-", "/")}/`
         break
       case "projects":
         filePath = `/projects/`
