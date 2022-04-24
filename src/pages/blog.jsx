@@ -11,7 +11,7 @@ function blog({ data }) {
           <Link to={node.fields.slug}>
             <h2 className={Styles.blogTitle}>{node.frontmatter.title}</h2>
           </Link>
-          <h3 className={Styles.subTitle}>{node.frontmatter.date}</h3>
+          <h4 className={Styles.subTitle}>{node.frontmatter.date}</h4>
           <p className={Styles.excerpt}>
             {node.excerpt} <Link to={node.fields.slug}>Read more</Link>
           </p>
