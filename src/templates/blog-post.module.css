@@ -2,3 +2,11 @@
   color: var(--hrcolor);
   margin-top: 0;
 }
+
+.content h2 {
+  margin: 25px 0 10px;
+}
+
+.content h3 {
+  margin: 20px 0 15px;
+}

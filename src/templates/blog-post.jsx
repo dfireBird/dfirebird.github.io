@@ -11,8 +11,10 @@ export default ({ data }) => {
       tabTitle={post.frontmatter.title}
       pageTitle={post.frontmatter.title}
     >
-      <h4 className={Styles.date}>Published on: {post.frontmatter.date}</h4>
-      <MDXRenderer>{post.body}</MDXRenderer>
+      <h5 className={Styles.date}>Published on: {post.frontmatter.date}</h5>
+      <div className={Styles.content}>
+        <MDXRenderer>{post.body}</MDXRenderer>
+      </div>
     </Layout>
   )
 }
