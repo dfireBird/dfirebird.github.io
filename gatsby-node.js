@@ -47,6 +47,9 @@ exports.createPages = async ({ graphql, actions }) => {
             fields {
               slug
             }
+            internal {
+              contentFilePath
+            }
           }
         }
       }
@@ -71,7 +74,7 @@ exports.createPages = async ({ graphql, actions }) => {
     }
     createPage({
       path: node.fields.slug,
-      component: component,
+      component: `${component}?__contentFilePath=${node.internal.contentFilePath}`,
       context: {
         slug: node.fields.slug,
       },

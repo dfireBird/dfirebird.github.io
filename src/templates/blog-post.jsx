@@ -1,10 +1,9 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { MDXRenderer } from "gatsby-plugin-mdx"
 import * as Styles from "./blog-post.module.css"
 import Layout from "../components/layout.jsx"
 
-export default ({ data }) => {
+export default function BlogPost({ data, children }) {
   const post = data.mdx
   return (
     <Layout
@@ -12,9 +11,7 @@ export default ({ data }) => {
       pageTitle={post.frontmatter.title}
     >
       <h5 className={Styles.date}>Published on: {post.frontmatter.date}</h5>
-      <div className={Styles.content}>
-        <MDXRenderer>{post.body}</MDXRenderer>
-      </div>
+      <div className={Styles.content}>{children}</div>
     </Layout>
   )
 }

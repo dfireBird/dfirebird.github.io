@@ -1,21 +1,11 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "../components/layout"
 
-export default ({ data }) => {
-  const post = data.mdx
+export default function About({ children }) {
   return (
     <Layout tabTitle="About" pageTitle="About Me">
-      <MDXRenderer>{post.body}</MDXRenderer>
+      {children}
     </Layout>
   )
 }
-
-export const query = graphql`
-  query ($slug: String!) {
-    mdx(fields: { slug: { eq: $slug } }) {
-      body
-    }
-  }
-`
