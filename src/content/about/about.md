@@ -1,10 +1,10 @@
 Hi! My name is Aadhish Sriram, but you can also call me by nickname, dfireBird.
-I'm a Software developer from India. I'm currently interning in [IBM](https://www.ibm.com/consulting) and
-pursuing my Bachelor Engineering degree on Computer Science in SASTRA Deemed University.
-I love working on projects and learn more things.
+I'm a software developer from India. I'm currently working at [IBM](https://www.ibm.com/consulting).
+I recently graduated with an Undergraduate Engineering degree in Computer Science at SASTRA University.
+I love working on hobby projects and learn things to do more hobby projects.
 
-I'm an aspiriing open-source enthusiast and my projects are often open-sourced.
-I watch anime or english TV shows and read manga when I'm not programming or studying.
+I'm an aspiring open-source enthusiast and my projects are often open-sourced.
+I watch anime or English TV shows and read manga when I'm not programming or studying.
 
 This site is meant as way both to showcase my work and a blog where can I share
 about my experience and journey into programming, so the name "A Programmer's
@@ -15,8 +15,8 @@ Journey".
 Rust is my go-to choice of programming language now and at-times I
 like to use Haskell, Elixir and Typescript.
 
-I'm working on to finish Papercups, a peer-to-peer chat application in Rust
-and to make it more sensible to use.
+I currently learning Phoenix on my free time after work and try to use the same for
+creating a pastebin like text-storage site.
 
 I also have some experience in Javascript, Racket, C++, Python, C and Java
 as well as HTML and CSS.
