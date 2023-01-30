@@ -4,7 +4,7 @@ I recently graduated with an Undergraduate Engineering degree in Computer Scienc
 I love working on hobby projects and learn things to do more hobby projects.
 
 I'm an aspiring open-source enthusiast and my projects are often open-sourced.
-I watch anime or English TV shows and read manga when I'm not programming or studying.
+I watch anime or TV shows or read manga when I'm not programming or studying.
 
 This site is meant as way both to showcase my work and a blog where can I share
 about my experience and journey into programming, so the name "A Programmer's
@@ -15,8 +15,9 @@ Journey".
 Rust is my go-to choice of programming language now and at-times I
 like to use Haskell, Elixir and Typescript.
 
-I currently learning Phoenix on my free time after work and try to use the same for
-creating a pastebin like text-storage site.
+I'm currently building a pastebin clone using actix-web in Rust for the backend
+and planning to use React + Next.js for the frontend. It's hostend in github as
+[protin](https://github.com/dfireBird/protin).
 
 I also have some experience in Javascript, Racket, C++, Python, C and Java
 as well as HTML and CSS.

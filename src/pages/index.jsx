@@ -20,8 +20,8 @@ export default () => (
         <a href="https://www.ibm.com/consulting">IBM</a>. I graduated with an
         Engineering with a major in Computer Science at SASTRA University. I am
         constantly learning something new and sharing my experiences here. I'm
-        learning Phoenix currenly on my free time after work and try to use that
-        for building a pastebin like text-storage site.
+        building a pastebin like text-storage site using actix-web in Rust and
+        planning to use React + Next.js for the frontend of the site.
       </p>
 
       <p>
