@@ -20,8 +20,9 @@ export default () => (
         <a href="https://www.ibm.com/consulting">IBM</a>. I graduated with an
         Engineering with a major in Computer Science at SASTRA University. I am
         constantly learning something new and sharing my experiences here. I'm
-        building a pastebin like text-storage site using actix-web in Rust and
-        planning to use React + Next.js for the frontend of the site.
+        currently learnnig and building various emulators,{" "}
+        <a href="https://github.com/dfireBird/chip-8/">Chip-8</a> for starters,
+        may build a NES or GBA emulator next.
       </p>
 
       <p>

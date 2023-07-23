@@ -15,9 +15,9 @@ Journey".
 Rust is my go-to choice of programming language now and at-times I
 like to use Haskell, Elixir and Typescript.
 
-I'm currently building a pastebin clone using actix-web in Rust for the backend
-and planning to use React + Next.js for the frontend. It's hostend in github as
-[protin](https://github.com/dfireBird/protin).
+I'm currently learning and building emulators to get more knowledge on assembly and how CPUs work.
+I started with [Chip-8](https://github.com/dfireBird/chip-8/) and intend to build NES or GBA 
+emulators next.
 
 I also have some experience in Javascript, Racket, C++, Python, C and Java
 as well as HTML and CSS.
