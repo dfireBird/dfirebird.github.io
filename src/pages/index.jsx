@@ -27,7 +27,7 @@ export default () => (
 
       <p>
         When I'm not programming, I pass my time by reading manga or watching
-        shows. I'm interested in reading about Lamba Caculus, Functional
+        shows. I'm interested in reading about Lambda Caculus, Functional
         Programming and Compiler Theory.
       </p>
 
