@@ -1,5 +1,15 @@
 [
   {
+    "name": "Chip-octo",
+    "description": "Chip-Octo is an interpreter of the classic CHIP-8 programming language made in Rust.",
+    "sourceLink": "https://github.com/dfireBird/chip-octo"
+  },
+  {
+    "name": "Papercups",
+    "description": "A P2P chat and file transfer program",
+    "sourceLink": "https://github.com/dfireBird/papercups"
+  },
+  {
     "name": "Personal Website",
     "description": "Website that serves both as a blog and portfolio. Created using react and gatsby",
     "sourceLink": "https://github.com/dfirebird/dfirebird.github.io",
@@ -9,11 +19,6 @@
     "name": "Emourge",
     "description": "A Discord bot to count emojis in messages send in a server and output the lowest frequency of emojis",
     "sourceLink": "https://github.com/dfireBird/emourge"
-  },
-  {
-    "name": "Papercups",
-    "description": "A P2P chat and file transfer program",
-    "sourceLink": "https://github.com/dfireBird/papercups"
   },
   {
     "name": "scrapddit",

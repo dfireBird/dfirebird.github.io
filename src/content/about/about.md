@@ -55,8 +55,3 @@ and give statistics about them.
 3. **Papercups** - P2P chat and file application
 4. **Programmer News Bot** - Telegram bot which retrieve and send posts from
 Hacker News.
-
-
-
-
-
