@@ -45,7 +45,7 @@ export default () => (
         <div>
           <a href="https://github.com/dfireBird">Github</a>
           <a href="https://discord.gg/programming">Discord</a>
-          <a href="https://twitter.com/dfireBird_">Twitter</a>
+          <a href="https://www.linkedin.com/in/aadhish-sriram-s/">LinkedIn</a>
         </div>
       </div>
     </div>
