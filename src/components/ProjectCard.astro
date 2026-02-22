@@ -1,0 +1,36 @@
+---
+import GhIcon from "~icons/simple-icons/github";
+import LinkIcon from "~icons/lucide/square-arrow-out-up-right";
+
+interface Props {
+  name: string;
+  description: string;
+  githubLink?: string;
+  appLink?: string;
+}
+
+const { name, description, githubLink, appLink } = Astro.props;
+---
+
+<div id={`project-${name}`} class="grid grid-cols-[3fr_0.5fr] gap-4">
+  <div class="grid gap-1">
+    <p>{name}</p>
+    <p class="text-sm text-text-secondary">{description}</p>
+  </div>
+  <div class="grid grid-rows-2 md:grid-cols-2 gap-1">
+    {
+      githubLink && (
+        <a href={githubLink}>
+          <GhIcon />
+        </a>
+      )
+    }
+    {
+      appLink && (
+        <a href={appLink}>
+          <LinkIcon />
+        </a>
+      )
+    }
+  </div>
+</div>

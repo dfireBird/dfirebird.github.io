@@ -8,6 +8,11 @@
     "dist"
   ],
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": ["unplugin-icons/types/astro"],
     "jsx": "react-jsx",
     "jsxImportSource": "react"
   }
