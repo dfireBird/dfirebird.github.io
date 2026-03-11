@@ -7,12 +7,11 @@
     {
         "name": "Famigom",
         "description": "A NES emulator written in Go",
-        "githubLink": "https://github.com/dfireBird/protin"
+        "githubLink": "https://github.com/dfireBird/famigom"
     },
     {
         "name": "Protin",
         "description": "A pastebin/hastebin like text hosting site",
-        "githubLink": "https://github.com/dfireBird/protin",
-        "appLink": "https://google.com"
+        "githubLink": "https://github.com/dfireBird/protin"
     }
 ]
