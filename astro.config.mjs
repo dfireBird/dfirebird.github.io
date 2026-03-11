@@ -17,5 +17,6 @@ export default defineConfig({
         compiler: 'astro',
       }),
     ]
-  }
+  },
+  site: 'https://dfirebird.dev'
 });
