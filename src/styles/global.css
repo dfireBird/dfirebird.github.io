@@ -2,8 +2,8 @@
 
 @theme {
     --color-background: rgb(39, 55, 77);
-    --color-text-primary: rgb(221, 230, 237);
-    --color-text-secondary: rgb(157, 178, 191);
-    --color-primary: rgb(169, 191, 157);
-    --color-secondary: rgb(191, 157, 191);
+    --color-primary: rgb(221, 230, 237);
+    --color-secondary: rgb(157, 178, 191);
+    --color-tertiary: #43DEA3;
+    --color-quaternary: rgb(222, 120, 67);
 }
